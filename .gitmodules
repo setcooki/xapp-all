@@ -22,3 +22,6 @@
 [submodule "xapp/Log"]
 	path = xapp/Log
 	url = git@github.com:setcooki/xapp-log.git
+[submodule "xapp-testing"]
+	path = xapp-testing
+	url = https://github.com/setcooki/xapp-testing.git
