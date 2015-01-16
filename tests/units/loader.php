@@ -1,6 +1,6 @@
 <?php
 
-$XAPP_BASE_DIRECTORY =  realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . '../../');
+$XAPP_BASE_DIRECTORY =  realpath(dirname(__FILE__) . DIRECTORY_SEPARATOR . '../../xapp/');
 
 //pull in function.php
 require_once(realpath(dirname(__FILE__) . '/../functions.php'));
