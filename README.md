@@ -49,7 +49,7 @@ In general its a pain compared to SVN. To bypass this:
         # gitc
   ```
   
-  4. Example scenario: get changes for a sub-modules:
+  4. Example scenario: get changes for all sub-modules:
   
   ``` bash
           # cd folder outside of sub module 
