@@ -2,7 +2,7 @@
 
 This repo is playground for adjusting xapp modules to composer installs and other variants. 
 
-Currently all modules are add via git submodule in xapp/...
+Currently all modules are added via git submodule in xapp/...
 
 ### Adding git submodules 
 
