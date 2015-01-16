@@ -4,6 +4,11 @@ This repo is playground for adjusting xapp modules to composer installs and othe
 
 Currently all modules are added via git submodule in xapp/...
 
+
+### Working with this repo
+
+checkout via git@github.com:setcooki/xapp-all.git --recursive
+
 ### Adding git submodules 
 
 Examples:
