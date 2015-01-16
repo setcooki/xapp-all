@@ -12,11 +12,25 @@
     },
     "require": {
         "php": ">=5.2.6",
-        "xapp-core": "master"
+        "xapp-core":"master",
+        "xapp-rpc": "master",
+        "xapp-xapp": "master"
     },
     "repositories": [
         {
             "url": "https://github.com/setcooki/xapp-core",
+            "type": "vcs",
+            "version":"master",
+            "packagist": false
+        },
+        {
+            "url": "https://github.com/setcooki/xapp-rpc",
+            "type": "vcs",
+            "version":"master",
+            "packagist": false
+        },
+        {
+            "url": "https://github.com/setcooki/xapp-xapp",
             "type": "vcs",
             "version":"master",
             "packagist": false
