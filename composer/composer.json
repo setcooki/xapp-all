@@ -15,7 +15,8 @@
         "xapp/core": "master",
         "xapp/rpc":  "master",
         "xapp/xapp": "master",
-        "xapp/cache":"master"
+        "xapp/cache":"master",
+        "xapp/orm": "master"
     },
     "repositories": [
         {
@@ -44,6 +45,12 @@
         },
         {
             "url": "https://github.com/setcooki/xapp-cache",
+            "type": "vcs",
+            "version":"master",
+            "packagist": false
+        },
+        {
+            "url": "https://github.com/setcooki/xapp-orm",
             "type": "vcs",
             "version":"master",
             "packagist": false
