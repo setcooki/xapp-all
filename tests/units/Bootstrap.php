@@ -185,10 +185,20 @@ class XApp_Bootstrap
 
 		if (!defined('XAPP')) {
 
+			//define('XAPPED', true);
+
 			require_once XAPP_BASEDIR . '/Core/core.php';
+			//require_once(XAPP_BASEDIR . '/Xapp/src/Xapp.php');
+
+			/*
+			require_once XAPP_BASEDIR . '/Core/core.php';
+			require_once(XAPP_BASEDIR . '/Xapp/src/Xapp.php');
+			*/
+			/*
 			require_once(XAPP_BASEDIR . '/Xapp/src/Error.php');
 			require_once(XAPP_BASEDIR . '/Xapp/src/Autoloader.php');
 			require_once(XAPP_BASEDIR . '/Xapp/src/Xapp.php');
+			*/
 
 			/*
 			//require_once XAPP_BASEDIR . '/../autoload.php';

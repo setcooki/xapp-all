@@ -48,7 +48,8 @@ class ConfigTest extends PHPUnit_Framework_TestCase{
 		$conf = Xapp_Config::create($config, 'priv1', 'php');
 
 		$result = Xapp_Config::retrieve('priv1', 'value2.value3');
-		$this->assertEquals($result, 'test', 'XApp_Config::retrieve failed: expected' . 'test');
+
+		$this->assertEquals($result, 'test', 'XApp_Config::retrieve failed: expected: ' . 'test');
 
 	}
 }
