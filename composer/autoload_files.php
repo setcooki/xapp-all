@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = $vendorDir;
 
 return array(
-    $vendorDir . '/firephp/firephp-core/lib/FirePHPCore/fb.php',
+    $vendorDir . '/composer/firephp/firephp-core/lib/FirePHPCore/fb.php',
 );
