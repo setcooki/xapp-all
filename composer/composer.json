@@ -8,7 +8,7 @@
         "wiki": "http://www.xapp-php.com/docs/html/"
     },
     "config": {
-        "vendor-dir": "lib/vendor"
+        "vendor-dir": "."
     },
     "require": {
         "php": ">=5.2.6",
