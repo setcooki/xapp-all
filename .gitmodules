@@ -16,3 +16,6 @@
 [submodule "xapp/ext"]
 	path = xapp/ext
 	url = git@github.com:setcooki/xapp-ext.git
+[submodule "xapp/Orm"]
+	path = xapp/Orm
+	url = git@github.com:setcooki/xapp-orm.git
