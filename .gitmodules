@@ -19,3 +19,6 @@
 [submodule "xapp/Orm"]
 	path = xapp/Orm
 	url = git@github.com:setcooki/xapp-orm.git
+[submodule "xapp/Log"]
+	path = xapp/Log
+	url = git@github.com:setcooki/xapp-log.git

@@ -1,0 +1,43 @@
+{
+    "name": "xapp/composer",
+    "keywords": ["xapp", "rpc"],
+    "homepage": "http://xapp-php.com",
+    "license": "GPL",
+    "support":{
+        "issues": "https://bugs.xapp-php.com:8888",
+        "wiki": "http://www.xapp-php.com/docs/html/"
+    },
+    "config": {
+        "vendor-dir": "lib/vendor"
+    },
+    "require": {
+        "php": ">=5.2.6",
+        "xapp-core": "master"
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/setcooki/xapp-core",
+            "type": "vcs",
+            "version":"master",
+            "packagist": false
+        }
+    ],
+    "_repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "setcooki/xapp-core",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/setcooki/xapp-core.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+    "autoload": {
+
+    },
+    "minimum-stability": "dev"
+}
