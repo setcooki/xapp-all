@@ -9,7 +9,7 @@
 	url = git@github.com:setcooki/xapp-config.git
 [submodule "xapp/Cache"]
 	path = xapp/Cache
-	url = git@github.com:setcooki/xapp-cache.git
+	url = https://github.com/setcooki/xapp-cache.git
 [submodule "xapp/Rpc"]
 	path = xapp/Rpc
 	url = git@github.com:setcooki/xapp-rpc.git
