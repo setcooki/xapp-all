@@ -1,24 +1,6 @@
-[submodule "xapp/Core"]
-	path = xapp/Core
-	url = git@github.com:setcooki/xapp-core.git
-[submodule "xapp/Xapp"]
-	path = xapp/Xapp
-	url = git@github.com:setcooki/xapp-xapp.git
-[submodule "xapp/Config"]
-	path = xapp/Config
-	url = git@github.com:setcooki/xapp-config.git
 [submodule "xapp/Cache"]
 	path = xapp/Cache
 	url = https://github.com/setcooki/xapp-cache.git
-[submodule "xapp/Rpc"]
-	path = xapp/Rpc
-	url = git@github.com:setcooki/xapp-rpc.git
-[submodule "xapp/ext"]
-	path = xapp/ext
-	url = git@github.com:setcooki/xapp-ext.git
-[submodule "xapp/Orm"]
-	path = xapp/Orm
-	url = git@github.com:setcooki/xapp-orm.git
 [submodule "xapp/Log"]
 	path = xapp/Log
 	url = git@github.com:setcooki/xapp-log.git
