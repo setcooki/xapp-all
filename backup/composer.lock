@@ -1,0 +1,304 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "8400c2b77c8b993ed2aa8b660f66af1f",
+    "packages": [
+        {
+            "name": "firephp/firephp-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firephp/firephp-core.git",
+                "reference": "67b5aa8e314eb88f8927d1213ea268effa1dfa3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firephp/firephp-core/zipball/67b5aa8e314eb88f8927d1213ea268effa1dfa3d",
+                "reference": "67b5aa8e314eb88f8927d1213ea268effa1dfa3d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/FirePHPCore/FirePHP.class.php",
+                    "lib/FirePHPCore/fb.php"
+                ],
+                "files": [
+                    "lib/FirePHPCore/fb.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Dorn",
+                    "email": "christoph@christophdorn.com",
+                    "homepage": "http://christophdorn.com"
+                }
+            ],
+            "description": "Traditional FirePHPCore library for sending PHP variables to the browser.",
+            "homepage": "https://github.com/firephp/firephp-core",
+            "time": "2014-11-26 18:59:18"
+        },
+        {
+            "name": "xapp/cache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/setcooki/xapp-cache.git",
+                "reference": "d84de5f712c82aa07264b0d5c0caca35e3890eeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/setcooki/xapp-cache/zipball/d84de5f712c82aa07264b0d5c0caca35e3890eeb",
+                "reference": "d84de5f712c82aa07264b0d5c0caca35e3890eeb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.6",
+                "xapp/core": "master"
+            },
+            "type": "xapp-module",
+            "autoload": {
+                "psr-0": {
+                    "Xapp_Cache": "../.."
+                },
+                "classmap": [
+                    "/"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "homepage": "http://xapp-php.com",
+            "keywords": [
+                "cache",
+                "xapp"
+            ],
+            "support": {
+                "issues": "https://bugs.xapp-php.com:8888",
+                "wiki": "http://www.xapp-php.com/docs/html/",
+                "source": "https://github.com/setcooki/xapp-cache/tree/master"
+            },
+            "time": "2015-01-16 18:10:42"
+        },
+        {
+            "name": "xapp/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/setcooki/xapp-core.git",
+                "reference": "9969609b9764352f5af99de01c838e1dff4723db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/setcooki/xapp-core/zipball/9969609b9764352f5af99de01c838e1dff4723db",
+                "reference": "9969609b9764352f5af99de01c838e1dff4723db",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.6"
+            },
+            "type": "xapp-module",
+            "license": [
+                "GPL"
+            ],
+            "homepage": "http://xapp-php.com",
+            "keywords": [
+                "core",
+                "xapp"
+            ],
+            "support": {
+                "issues": "https://bugs.xapp-php.com:8888",
+                "wiki": "http://www.xapp-php.com/docs/html/",
+                "source": "https://github.com/setcooki/xapp-core/tree/master"
+            },
+            "time": "2015-01-16 16:10:32"
+        },
+        {
+            "name": "xapp/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/setcooki/xapp-log.git",
+                "reference": "55955ee4699c9e41a5603fc50b3a22076db8ae63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/setcooki/xapp-log/zipball/55955ee4699c9e41a5603fc50b3a22076db8ae63",
+                "reference": "55955ee4699c9e41a5603fc50b3a22076db8ae63",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.6",
+                "xapp/core": "master"
+            },
+            "type": "xapp-module",
+            "autoload": {
+                "psr-0": {
+                    "Xapp_Log": "../.."
+                },
+                "classmap": [
+                    "/"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "homepage": "http://xapp-php.com",
+            "keywords": [
+                "log",
+                "xapp"
+            ],
+            "support": {
+                "issues": "https://bugs.xapp-php.com:8888",
+                "wiki": "http://www.xapp-php.com/docs/html/",
+                "source": "https://github.com/setcooki/xapp-log/tree/master"
+            },
+            "time": "2015-01-16 16:20:06"
+        },
+        {
+            "name": "xapp/orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/setcooki/xapp-orm.git",
+                "reference": "36d2e02c2923fbb6bcd57f71591ddc8146e80133"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/setcooki/xapp-orm/zipball/36d2e02c2923fbb6bcd57f71591ddc8146e80133",
+                "reference": "36d2e02c2923fbb6bcd57f71591ddc8146e80133",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "xapp/core": "master"
+            },
+            "type": "xapp-module",
+            "autoload": {
+                "psr-0": {
+                    "Xapp_Orm": "../.."
+                },
+                "classmap": [
+                    "/"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "homepage": "http://xapp-php.com",
+            "keywords": [
+                "orm",
+                "xapp"
+            ],
+            "support": {
+                "issues": "https://bugs.xapp-php.com:8888",
+                "wiki": "http://www.xapp-php.com/docs/html/",
+                "source": "https://github.com/setcooki/xapp-orm/tree/master"
+            },
+            "time": "2015-01-16 16:33:56"
+        },
+        {
+            "name": "xapp/rpc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/setcooki/xapp-rpc.git",
+                "reference": "16f194897bf5c3bd39979c99dafadfa260cbc5e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/setcooki/xapp-rpc/zipball/16f194897bf5c3bd39979c99dafadfa260cbc5e0",
+                "reference": "16f194897bf5c3bd39979c99dafadfa260cbc5e0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.6",
+                "xapp/core": "master"
+            },
+            "type": "xapp-module",
+            "autoload": {
+                "psr-0": {
+                    "Xapp_Rpc": "../.."
+                },
+                "classmap": [
+                    "/"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "homepage": "http://xapp-php.com",
+            "keywords": [
+                "rpc",
+                "xapp"
+            ],
+            "support": {
+                "issues": "https://bugs.xapp-php.com:8888",
+                "wiki": "http://www.xapp-php.com/docs/html/",
+                "source": "https://github.com/setcooki/xapp-rpc/tree/master"
+            },
+            "time": "2015-01-16 16:19:44"
+        },
+        {
+            "name": "xapp/xapp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/setcooki/xapp-xapp.git",
+                "reference": "965a6747d0178a90b512d2cd563a451763796a08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/setcooki/xapp-xapp/zipball/965a6747d0178a90b512d2cd563a451763796a08",
+                "reference": "965a6747d0178a90b512d2cd563a451763796a08",
+                "shasum": ""
+            },
+            "require": {
+                "firephp/firephp-core": "dev-master",
+                "php": ">=5.2.6",
+                "xapp/core": "master",
+                "xapp/log": "master"
+            },
+            "type": "xapp-module",
+            "autoload": {
+                "psr-0": {
+                    "Xapp_Xapp": "../.."
+                },
+                "classmap": [
+                    "/"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "homepage": "http://xapp-php.com",
+            "keywords": [
+                "xapp",
+                "xapp"
+            ],
+            "support": {
+                "issues": "https://bugs.xapp-php.com:8888",
+                "wiki": "http://www.xapp-php.com/docs/html/",
+                "source": "https://github.com/setcooki/xapp-xapp/tree/master"
+            },
+            "time": "2015-01-16 16:19:09"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.2.6"
+    },
+    "platform-dev": []
+}
