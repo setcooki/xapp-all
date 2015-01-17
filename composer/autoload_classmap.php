@@ -55,8 +55,8 @@ return array(
     'Xapp_Orm_Query_Exception' => $vendorDir . '/xapp/orm/src/Query/Exception/Exception.php',
     'Xapp_Orm_Query_Mysql' => $vendorDir . '/xapp/orm/src/Query/Mysql.php',
     'Xapp_Profiler' => $vendorDir . '/xapp/xapp/src/Profiler.php',
-    'Xapp_Reflection' => $vendorDir . '/xapp/xapp/src/Reflection.php',
-    'Xapp_Registry' => $vendorDir . '/xapp/xapp/src/Registry.php',
+    'Xapp_Reflection' => $vendorDir . '/xapp/Xapp/src/Reflection.php',
+    'Xapp_Registry' => $vendorDir . '/xapp/Xapp/src/Registry.php',
     'Xapp_Rpc' => $vendorDir . '/xapp/rpc/src/Rpc.php',
     'Xapp_Rpc_Exception' => $vendorDir . '/xapp/rpc/src/Exception.php',
     'Xapp_Rpc_Fault' => $vendorDir . '/xapp/rpc/src/Fault.php',
@@ -78,5 +78,5 @@ return array(
     'Xapp_Rpc_Smd_Exception' => $vendorDir . '/xapp/rpc/src/Smd/Exception/Exception.php',
     'Xapp_Rpc_Smd_Json' => $vendorDir . '/xapp/rpc/src/Smd/Json.php',
     'Xapp_Rpc_Smd_Jsonp' => $vendorDir . '/xapp/rpc/src/Smd/Jsonp.php',
-    'Xapp_Shell' => $vendorDir . '/xapp/xapp/src/Shell.php',
+    'Xapp_Shell' => $vendorDir . '/xapp/Xapp/src/Shell.php',
 );
