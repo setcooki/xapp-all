@@ -1,3 +1,27 @@
 [submodule "xapp-testing"]
 	path = xapp-testing
 	url = https://github.com/setcooki/xapp-testing.git
+[submodule "xapp/core"]
+	path = xapp/core
+	url = https://github.com/setcooki/xapp-core.git
+[submodule "xapp/xapp"]
+	path = xapp/xapp
+	url = https://github.com/setcooki/xapp-xapp.git
+[submodule "xapp/config"]
+	path = xapp/config
+	url = https://github.com/setcooki/xapp-config.git
+[submodule "xapp/cache"]
+	path = xapp/cache
+	url = https://github.com/setcooki/xapp-cache.git
+[submodule "xapp/log"]
+	path = xapp/log
+	url = https://github.com/setcooki/xapp-log.git
+[submodule "xapp/rpc"]
+	path = xapp/rpc
+	url = https://github.com/setcooki/xapp-rpc.git
+[submodule "xapp/util"]
+	path = xapp/util
+	url = https://github.com/setcooki/xapp-util.git
+[submodule "xapp/mail"]
+	path = xapp/mail
+	url = https://github.com/setcooki/xapp-mail.git
