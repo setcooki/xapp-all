@@ -13,8 +13,8 @@ checkout via git@github.com:setcooki/xapp-all.git --recursive
 
 Examples:
  
- 1. git submodule add git@github.com:setcooki/xapp-orm.git xapp/Orm
- 2. git submodule add git@github.com:setcooki/xapp-rpc.git xapp/Rpc
+1. git submodule add https://github.com/setcooki/xapp-core.git xapp/core
+2. git submodule add https://github.com/setcooki/xapp-rpc.git xapp/rpc
  
 ### Working with sub modules 
 
