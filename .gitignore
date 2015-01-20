@@ -48,5 +48,7 @@ crashlytics.properties
 crashlytics-build.properties
 composer/lib
 composer/composer.lock
+experiments
+temp
 
 
