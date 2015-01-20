@@ -7,14 +7,16 @@ Currently all modules are added via git submodule in xapp/...
 
 ### Working with this repo
 
-checkout via git@github.com:setcooki/xapp-all.git --recursive
+checkout:
+
+    $git clone --recursive https://github.com/setcooki/xapp-all 
 
 ### Adding git submodules 
 
 Examples:
  
-1. git submodule add https://github.com/setcooki/xapp-core.git xapp/core
-2. git submodule add https://github.com/setcooki/xapp-rpc.git xapp/rpc
+    $ git submodule add https://github.com/setcooki/xapp-core.git xapp/core
+    $ git submodule add https://github.com/setcooki/xapp-rpc.git xapp/rpc
  
 ### Working with sub modules 
 
