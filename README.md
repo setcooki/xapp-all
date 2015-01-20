@@ -23,6 +23,7 @@ In general its a pain compared to SVN. To bypass this:
 1. Create bash-script in /usr/bin/gitc with that content:
   
 ``` bash 
+    
     #!/bin/sh
     what=.
     message = "auto-commit"
@@ -39,7 +40,6 @@ In general its a pain compared to SVN. To bypass this:
     git commit -m="$message" "$what"
     
     git push
-
 ```
   
 2. Create bash-script in /usr/bin/gitu with that content:
@@ -58,15 +58,15 @@ In general its a pain compared to SVN. To bypass this:
 4. Example scenario: get changes for all sub-modules:
   
     ``` bash
-          # cd folder outside of sub module 
-          # gitu
+        # cd folder outside of sub module 
+        # gitu
     ```
     
 5. Example scenario: commit all changes in all sub-modules in one row:
   
     ``` bash
-          # cd xapp-all (parent repo) 
-          # git submodule foreach 'gitc || :'
+        # cd xapp-all (parent repo) 
+        # git submodule foreach 'gitc || :'
     ```
   
 6. Example scenario: pull all changes in all sub-modules in one row:
@@ -81,8 +81,7 @@ In general its a pain compared to SVN. To bypass this:
     ``` bash
     
         [alias]
-        rms = "!f(){ git rm --cached \"$1\";rm -r \"$1\";git config -f .gitmodules --remove-section \"submodule.$1\";git config -f .git/config --remove-section \"submodule.$1\";git add .gitmodules; }; f"
-  
+        rms = "!f(){ git rm --cached \"$1\";rm -r \"$1\";git config -f .gitmodules --remove-section \"submodule.$1\";git config -f .git/config --remove-section \"submodule.$1\";git add .gitmodules; }; f"  
   ```
    
 8. then you can remove git submodules by:
@@ -95,8 +94,7 @@ In general its a pain compared to SVN. To bypass this:
     
         # and to re-add it 
     
-        git submodule add https://github.com/setcooki/xapp-core.git xapp/core
-    
+        git submodule add https://github.com/setcooki/xapp-core.git xapp/core    
     ```
        
         
