@@ -74,3 +74,28 @@ In general its a pain compared to SVN. To bypass this:
         # cd xapp-all (parent repo) 
         # git submodule foreach 'git pull || :'
   ```
+  
+  7. put this here in your ~/.gitconfig :
+  
+  ``` bash
+  [alias]
+  rms = "!f(){ git rm --cached \"$1\";rm -r \"$1\";git config -f .gitmodules --remove-section \"submodule.$1\";git config -f .git/config --remove-section \"submodule.$1\";git add .gitmodules; }; f"
+  
+  ```
+   
+  8. then you can remove git submodules by:
+     
+     ``` bash
+        
+        cd xapp-all
+        
+        git rms xapp/Core
+        
+        # and to re-add it 
+        
+        git submodule add https://github.com/setcooki/xapp-core.git xapp/core
+        
+     ```   
+            
+  
+
