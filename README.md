@@ -60,3 +60,17 @@ In general its a pain compared to SVN. To bypass this:
           # cd folder outside of sub module 
           # gitu
     ```
+    
+  5. Example scenario: commit all changes in all sub-modules in one row:
+  
+    ``` bash
+          # cd xapp-all (parent repo) 
+          # git submodule foreach 'gitc || :'
+    ```
+  
+  6. Example scenario: pull all changes in all sub-modules in one row:
+    
+  ``` bash
+        # cd xapp-all (parent repo) 
+        # git submodule foreach 'git pull || :'
+  ```
