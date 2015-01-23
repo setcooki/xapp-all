@@ -8,8 +8,12 @@ Currently all modules are added via git submodule in xapp/...
 ### Working with this repo
 
 checkout:
-
-    $git clone --recursive https://github.com/setcooki/xapp-all 
+    
+    $ git clone --recursive https://github.com/setcooki/xapp-all
+    $ cd xapp-all
+    $ git submodule foreach "git checkout master"
+    
+     
 
 ### Adding git submodules 
 
@@ -24,25 +28,44 @@ In general its a pain compared to SVN. To bypass this:
  
 1. Create bash-script in /usr/bin/gitc with that content:
   
-``` bash 
+    ``` bash 
+        
+       #!/bin/sh
+       what=.
+       message="auto-commit"
+       
+       if [ "$2" ]
+           then what=$2;
+       fi
+       
+       
+       if [ "$1" ]
+           then message=$1;
+       fi
+       
+       echo "commit with messge " $message " on directory:"  $what
+       
+       git commit -m=$message $what
+       
+       git push
+       
+    ```
     
-    #!/bin/sh
-    what=.
-    message = "auto-commit"
-    if [[ -n $1 ]];
-      then what=$1;
-    fi
+    This allows you to commit more easy: 
+        
+    Commit current directory with default message auto-commit :
+                
+        $ gitc
+        
+    Commit specific directory with default message auto-commit :
+                    
+        $ gitc "fixes included" ./test
+        
+        
     
     
-    if [[ -n $2 ]];
-      then message=$2;
-    fi
-    echo "commit with messge " "$message"
     
-    git commit -m="$message" "$what"
-    
-    git push
-```
+  
   
 2. Create bash-script in /usr/bin/gitu with that content:
   
