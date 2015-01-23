@@ -96,8 +96,23 @@ In general its a pain compared to SVN. To bypass this:
     
         # and to re-add it 
     
-        git submodule add https://github.com/setcooki/xapp-core.git xapp/core    
+        git submodule add https://github.com/setcooki/xapp-core.git xapp/core
+            
     ```
+    
+9. Example scenario: push all changes in all sub-modules in one row:
+    
+    Create an bash script /usr/bin/gitcs with that content:
+    
+    git submodule foreach 'gitc || :'
+    
+    then 
+    
+    ``` bash
+        # cd xapp-all  
+        # gitcs
+    ```
+
        
         
   
