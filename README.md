@@ -13,7 +13,15 @@ checkout:
     $ cd xapp-all
     $ git submodule foreach "git checkout master"
     
-     
+### Initial submodule init
+
+Also necessary for new modules after cloning:
+
+    $ cd xapp-all
+    $ git pull
+    $ git submodule init
+    $ git submodule update
+    $ git submodule foreach 'git checkout master'
 
 ### Adding git submodules 
 
