@@ -25,3 +25,6 @@
 [submodule "xapp/mail"]
 	path = xapp/mail
 	url = https://github.com/setcooki/xapp-mail.git
+[submodule "xapp/orm"]
+	path = xapp/orm
+	url = https://github.com/setcooki/xapp-orm.git
