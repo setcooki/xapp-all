@@ -77,30 +77,27 @@ In general its a pain compared to SVN. To bypass this:
   
 2. Create bash-script in /usr/bin/gitu with that content:
   
-    ``` bash 
-        git submodule foreach git pull origin master
-    ```
+    
+        $ git submodule foreach git pull origin master
+    
   
 3. Example scenario: commit changes in a sub-module:
   
-    ``` bash
-        # cd xapp/Rpc
-        # gitc
-    ```
+        $ cd xapp/Rpc
+        $ gitc
+    
   
 4. Example scenario: get changes for all sub-modules:
   
-    ``` bash
-        # cd folder outside of sub module 
-        # gitu
-    ```
+        $ cd folder outside of sub module 
+        $ gitu
+
     
 5. Example scenario: commit all changes in all sub-modules in one row:
   
-    ``` bash
-        # cd xapp-all (parent repo) 
-        # git submodule foreach 'gitc || :'
-    ```
+        $ cd xapp-all (parent repo) 
+        $ git submodule foreach 'gitc || :'
+
   
 6. Example scenario: pull all changes in all sub-modules in one row:
     
