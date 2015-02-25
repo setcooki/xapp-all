@@ -1,0 +1,22 @@
+{
+    "name": "xapp/installtest",
+    "keywords": ["xapp", "rpc"],
+    "homepage": "https://github.com/setcooki/xapp-all",
+    "license": "GPL",
+    "support":{
+        "issues": "http://agile.cooki.me",
+        "wiki": "https://github.com/setcooki/xapp-all"
+    },
+    "config": {
+        "vendor-dir": "lib/vendor"
+    },
+    "require": {
+        "php": ">=5.2.6",
+        "xapp/core": "master",
+        "xapp/rpc": "dev-master"
+    },
+    "autoload": {
+
+    },
+    "minimum-stability": "dev"
+}
