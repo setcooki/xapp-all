@@ -70,11 +70,6 @@ In general its a pain compared to SVN. To bypass this:
         $ gitc "fixes included" ./test
         
         
-    
-    
-    
-  
-  
 2. Create bash-script in /usr/bin/gitu with that content:
   
     
