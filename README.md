@@ -36,30 +36,28 @@ In general its a pain compared to SVN. To bypass this:
  
 1. Create bash-script in /usr/bin/gitc with that content:
   
-    ``` bash 
-        
-       #!/bin/sh
-       what=.
-       message="auto-commit"
-       
-       if [ "$2" ]
-           then what=$2;
-       fi
-       
-       
-       if [ "$1" ]
-           then message=$1;
-       fi
-       
-       echo "commit with messge " $message " on directory:"  $what
-       
-       git commit -m=$message $what
-       
-       git push
-       
+    ``` 
+    #!/bin/sh
+
+    what=.
+    message="auto-commit"
+    
+    if [ "$2" ]
+            then what=$2;
+    fi
+    
+    if [ "$1" ]
+            then message=$1;
+    fi
+    
+    echo "commit with message: "$message" on directory: "$what
+    
+    git commit -m '$message' $what
+    
+    git push
     ```
     
-    This allows you to commit more easy: 
+    This allows you to commit more easy:
         
     Commit current directory with default message auto-commit :
                 
@@ -69,6 +67,11 @@ In general its a pain compared to SVN. To bypass this:
                     
         $ gitc "fixes included" ./test
         
+    try: 
+    
+        $ sudo gitc message" .
+    
+    if you need root privileges
         
 2. Create bash-script in /usr/bin/gitu with that content:
   
